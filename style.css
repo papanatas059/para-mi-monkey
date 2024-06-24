@@ -1,0 +1,60 @@
+body {
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #ff69b4;
+    font-size: 2.5em;
+}
+
+.buttons {
+    margin: 20px 0;
+    position: relative;
+    height: 100px; /* Ajusta según sea necesario */
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #ff69b4;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff1493;
+}
+
+#responseMessage {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #000000;
+}
+
+#noButton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#yesButton.grow {
+    transform: scale(1.9);
+}
